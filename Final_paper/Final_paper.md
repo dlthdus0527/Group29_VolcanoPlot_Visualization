@@ -1,5 +1,9 @@
 # Visualizing Differential Gene Expression with Volcano Plots
-By Ishvari Desai, Emily Wei, Amy (Soyeon) Lee
+By Ishvari Desai, Emily Wei, Soyeon Lee(Amy)
+
+## Introduction
+
+## Volcano Plot
 
 ## Generating Volcano Plots
 
