@@ -12,6 +12,7 @@ Differential gene expression (DGE) refers to the process of identifying genes wh
 
 ### Key Tools for DGE Analysis
 Commonly used tools for DGE include:
+
 DESeq2: R package for robust statistical testing of differential expression.
 
 edgeR: Another R package widely used for count-based expression data.
