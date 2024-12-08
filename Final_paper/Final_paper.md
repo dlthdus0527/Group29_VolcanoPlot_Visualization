@@ -1,3 +1,6 @@
+#Visualizing Differential Gene Expression with Volcano Plots
+By Ishvari Desai, Emily Wei, Amy (Soyeon) Lee
+
 ## Generating Volcano Plots
 
 Volcano plots can be generated using tools like R and Python.
