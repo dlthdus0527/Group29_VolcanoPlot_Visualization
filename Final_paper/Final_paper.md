@@ -23,7 +23,7 @@ These tools typically output statistical metrics like fold change and adjusted p
 ## Volcano Plot
 A volcano plot is a scatter plot designed to visualize gene expression changes between conditions. It combines the magnitude of expression changes (fold change) with their statistical significance (p-value) to highlight the most impactful genes.
 
-![Image](volcano_plot.png)
+! [Image](volcano_plot.png)
 
 Up-regulated Genes:
 
