@@ -24,13 +24,13 @@ These tools typically output statistical metrics like fold change and adjusted p
 A volcano plot is a scatter plot designed to visualize gene expression changes between conditions. It combines the magnitude of expression changes (fold change) with their statistical significance (p-value) to highlight the most impactful genes.
 
 
-Upregulated Genes:
+Up-regulated Genes:
 
 * Found on the right side of the plot.
 * Represent genes with significantly increased expression in the condition of interest.
 * Highlighted in red.
 
-Downregulated Genes:
+Down-regulated Genes:
 * Found on the left side of the plot.
 * Represent genes with significantly decreased expression.
 * Highlighted in blue.
