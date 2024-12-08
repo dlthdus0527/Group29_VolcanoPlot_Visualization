@@ -37,13 +37,9 @@ Down-regulated Genes:
 Non-significant Genes:
 * Plotted in grey, representing genes with no statistically significant expression changes.
 
-Significance Threshold: A horizontal line at p = 0.05 indicates the statistical significance cutoff.
+The provided image depicts a volcano plot, a scatter plot used to visualize differential gene expression. The x-axis represents the log2 fold change, which indicates the magnitude of change in gene expression between two conditions; values further from zero signify greater changes. The y-axis displays the -log10 p-value, representing the statistical significance of these changes, with higher values indicating stronger confidence in the results. 
 
-Fold Change Threshold: Genes are further classified based on their biological significance using fold change thresholds.
-
-X-Axis (Log2 Fold Change): The x-axis shows the log2 fold change in gene expression, representing the magnitude of change between two conditions. Values farther from zero indicate a greater change.
-
-Y-Axis (-log10 P-Value): The y-axis displays the -log10 p-value, representing the statistical significance of the changes. Larger values indicate higher statistical confidence.
+The horizontal dashed line corresponds to the significance threshold, typically set at a p-value of 0.05; genes above this line are considered statistically significant. Points in red and blue highlight upregulated and downregulated genes, respectively, while grey points represent genes that show no significant change. The fold change threshold is also used to classify genes based on their biological significance, making the volcano plot an effective tool for identifying key genes for further investigation.
 
 
 ## Generating Volcano Plots
