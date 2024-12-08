@@ -2,7 +2,9 @@
 By Ishvari Desai, Emily Wei, Soyeon Lee(Amy)
 
 ## Introduction
+
 Gene expression studies often result in large datasets that contain detailed measurements of RNA or protein levels across various experimental conditions. To derive meaningful insights from these datasets, effective visualization methods are crucial. These visualizations provide a clear picture of how genes are expressed differently under specific conditions.
+
 Visualizing gene expression allows researchers to understand and interpret differences in gene activity between various biological conditions. For example, visualizations enable researchers to pinpoint specific genes of interest, interpret complex datasets, and present results in an intuitive and comprehensible format. They play a critical role in hypothesis generation, pathway analysis, and identifying candidate biomarkers or therapeutic targets.
 
 ### Differential Gene Expression
@@ -11,6 +13,7 @@ Differential gene expression (DGE) refers to the process of identifying genes wh
 ### Key Tools for DGE Analysis
 Commonly used tools for DGE include:
 DESeq2: R package for robust statistical testing of differential expression.
+
 edgeR: Another R package widely used for count-based expression data.
 
 These tools typically output statistical metrics like fold change and adjusted p-values, which are essential for volcano plot visualization.
