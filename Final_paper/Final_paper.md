@@ -28,27 +28,28 @@ Upregulated Genes:
 
 * Found on the right side of the plot.
 * Represent genes with significantly increased expression in the condition of interest.
-* Marked in red.
+* Highlighted in red.
 
 Downregulated Genes:
-Found on the left side of the plot.
-Represent genes with significantly decreased expression.
-Highlighted in blue.
+* Found on the left side of the plot.
+* Represent genes with significantly decreased expression.
+* Highlighted in blue.
 
 Non-significant Genes:
-Plotted in grey, representing genes with no statistically significant expression changes.
+* Represent genes with no statistically significant expression changes.
+* Highlighted in grey
 
 Significance Threshold:
-A horizontal line at p = 0.05 indicates the statistical significance cutoff.
+* A horizontal line at p = 0.05 indicates the statistical significance cutoff.
 
 Fold Change Threshold:
-Genes are further classified based on their biological significance using fold change thresholds.
+* Genes are further classified based on their biological significance using fold change thresholds.
 
 X-Axis (Log2 Fold Change)
-The x-axis shows the log2 fold change in gene expression, representing the magnitude of change between two conditions. Values farther from zero indicate a greater change.
+* The x-axis shows the log2 fold change in gene expression, representing the magnitude of change between two conditions. Values farther from zero indicate a greater change.
 
 Y-Axis (-log10 P-Value)
-The y-axis displays the -log10 p-value, representing the statistical significance of the changes. Larger values indicate higher statistical confidence.
+* The y-axis displays the -log10 p-value, representing the statistical significance of the changes. Larger values indicate higher statistical confidence.
 
 
 ## Generating Volcano Plots
