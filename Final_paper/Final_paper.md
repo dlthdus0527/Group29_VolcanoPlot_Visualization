@@ -25,9 +25,10 @@ A volcano plot is a scatter plot designed to visualize gene expression changes b
 
 
 Upregulated Genes:
-Found on the right side of the plot.
-Represent genes with significantly increased expression in the condition of interest.
-Commonly marked in red.
+
+* Found on the right side of the plot.
+* Represent genes with significantly increased expression in the condition of interest.
+* Marked in red.
 
 Downregulated Genes:
 Found on the left side of the plot.
