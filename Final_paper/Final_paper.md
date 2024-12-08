@@ -35,8 +35,7 @@ Down-regulated Genes:
 * Represent genes with significantly decreased expression.
 
 Non-significant Genes:
-* Highlighted in grey, on the bottom of the plot.
-* Represent genes with no statistically significant expression changes.
+* Plotted in grey, representing genes with no statistically significant expression changes.
 
 Significance Threshold: A horizontal line at p = 0.05 indicates the statistical significance cutoff.
 
