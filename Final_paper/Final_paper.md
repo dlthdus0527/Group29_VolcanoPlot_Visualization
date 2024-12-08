@@ -27,8 +27,6 @@ A volcano plot is a scatter plot designed to visualize gene expression changes b
 
 The provided image depicts a volcano plot, a scatter plot used to visualize differential gene expression. The x-axis represents the log2 fold change, which indicates the magnitude of change in gene expression between two conditions; values further from zero signify greater changes. The y-axis displays the -log10 p-value, representing the statistical significance of these changes, with higher values indicating stronger confidence in the results. 
 
-The horizontal dashed line corresponds to the significance threshold, typically set at a p-value of 0.05; genes above this line are considered statistically significant. Points in red and blue highlight upregulated and downregulated genes, respectively, while grey points represent genes that show no significant change. The fold change threshold is also used to classify genes based on their biological significance, making the volcano plot an effective tool for identifying key genes for further investigation.
-
 Up-regulated Genes:
 
 * Highlighted in red, on the right side of the plot.
@@ -40,6 +38,8 @@ Down-regulated Genes:
 
 Non-significant Genes:
 * Plotted in grey, representing genes with no statistically significant expression changes.
+
+The horizontal dashed line corresponds to the significance threshold, typically set at a p-value of 0.05; genes above this line are considered statistically significant. The fold change threshold is also used to classify genes based on their biological significance, making the volcano plot an effective tool for identifying key genes for further investigation.
 
 
 ## Generating Volcano Plots
