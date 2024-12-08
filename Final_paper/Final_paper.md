@@ -27,18 +27,16 @@ A volcano plot is a scatter plot designed to visualize gene expression changes b
 
 Up-regulated Genes:
 
-* Found on the right side of the plot.
+* Highlighted in red, on the right side of the plot.
 * Represent genes with significantly increased expression in the condition of interest.
-* Highlighted in red.
 
 Down-regulated Genes:
-* Found on the left side of the plot.
+* Highlighted in blue, on the left side of the plot.
 * Represent genes with significantly decreased expression.
-* Highlighted in blue.
 
 Non-significant Genes:
-* Represent genes with no statistically significant expression changes.
 * Highlighted in grey
+* Represent genes with no statistically significant expression changes.
 
 Significance Threshold: A horizontal line at p = 0.05 indicates the statistical significance cutoff.
 
