@@ -70,11 +70,12 @@ ggplot(data, aes(x=log2FoldChange, y=-log10(pvalue))) +
 
 ```
 *Key Features:*
-geom_point: Plots each gene as a point.
 
-Color Coding: Points are colored based on significance.
+* geom_point: Plots each gene as a point.
 
-Dashed Lines: Represent p-value and fold-change thresholds.
+* Color Coding: Points are colored based on significance.
+
+* Dashed Lines: Represent p-value and fold-change thresholds.
 
 *Output:*
 A clear volcano plot highlighting up-regulated and down-regulated genes.
@@ -109,11 +110,12 @@ plt.ylabel('-log10(P-value)')
 plt.show()
 ```
 *Key Features:*
-plt.scatter: Plots genes as points, colored based on significance.
 
-Dashed Lines: Highlight thresholds for significance and fold-change.
+* plt.scatter: Plots genes as points, colored based on significance.
 
-Customization: Matplotlib allows extensive styling and customization.
+* Dashed Lines: Highlight thresholds for significance and fold-change.
+
+* Customization: Matplotlib allows extensive styling and customization.
 
 *Output:*
 A volcano plot similar to R’s visualization, emphasizing significant gene expression changes.
