@@ -47,6 +47,7 @@ The horizontal dashed line corresponds to the significance threshold, typically 
 Volcano plots can be generated using tools like R and Python.
 
 R: Libraries such as ggplot2 and EnhancedVolcano are widely used.
+
 Python: Libraries like Matplotlib and Seaborn offer similar functionality
 
 Using the ggplot2 library, we map gene expression changes and highlight regions of significance.
