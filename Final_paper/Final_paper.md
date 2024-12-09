@@ -111,7 +111,7 @@ Both R and Python excel at generating volcano plots. The choice of tool depends 
 
 ## Case Study: "Roles of highly expressed PAICS in lung adenocarcinoma"
 
-
+<img width="720" alt="research_paper_title" src="https://github.com/user-attachments/assets/3d5f3e26-6d84-41de-9976-493b86c4b6b5">
 
 ### Differential Expression in Cancer vs. Normal Tissue
 
@@ -125,13 +125,19 @@ The authors of this paper highlighted the importance of their research by explai
 
 ## Case Study: Results
 
+### Plot Criteria
+
 Utilizing the genomics data available on the database cBioPortal to obtain 558 genes that were significantly coexpressed with PAICS in LADC samples, the researchers created a volcano plot with **threshold criteria** of a *log2 fold change of +/- 1* and a *p-values less than 0.05*. 
 
 **The resulting volcano plot looked like:**
 
-
+<img width="392" alt="Screen Shot 2024-12-09 at 12 55 12 AM" src="https://github.com/user-attachments/assets/b7c99009-821a-448c-b076-3d9c78846797">
 
 *Figure A's Description:* "The expression differences of coexpression genes, obtained from cBioPortal, between altered and unaltered PAICS expression group, are shown in a volcano plot.
+
+Zhou, Shuyi et al. (2019) PAICS is hypomethylated and highly expressed in LADC. ScienceDirect, Gene, Vol. 692, 1-8.
+
+### Plot Results/Analysis
 
 Based on the threshold, **215 genes** were identified as PAICS-associated codifferentially expressed genes. They were thus likely involved in biological pathways related to PAICS expression, helping researchers to better understand potential therapeutic targets. 
 
