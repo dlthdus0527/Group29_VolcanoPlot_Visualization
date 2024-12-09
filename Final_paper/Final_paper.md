@@ -1,5 +1,7 @@
 # Visualizing Differential Gene Expression with Volcano Plots
-By Ishvari Desai, Emily Wei, Soyeon Lee(Amy)
+### By Ishvari Desai, Emily Wei, Soyeon Lee(Amy)
+
+* [Introduction](#introduction)
 
 ## Introduction
 
@@ -154,11 +156,7 @@ In summary, volcano plots serve as a very important tool in research that looks 
 
 ## Sources 
 * [Hemtools](https://hemtools.readthedocs.io/en/latest/content/Bioinformatics_Core_Competencies/Volcanoplot.html)
-
 * [Erikduan](https://erikaduan.github.io/posts/2021-01-02-volcano-plots-with-ggplot2/)
-
 * [Understanding Volcano Plots](https://www.htgmolecular.com/blog/2022-08-25/understanding-volcano-plots)
-
 * [Data Analysis and Visualization](https://mkempenaar.github.io/gene_expression_analysis/chapter-5.html)
-
 * ["Roles of highly expressed PAICS in lung adenocarcinoma"](https://www.sciencedirect.com/science/article/pii/S0378111919300228?via%3Dihub)
