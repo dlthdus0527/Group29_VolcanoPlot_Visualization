@@ -156,3 +156,7 @@ In summary, volcano plots serve as a very important tool in research that looks 
 [hemtools](https://hemtools.readthedocs.io/en/latest/content/Bioinformatics_Core_Competencies/Volcanoplot.html)
 
 [erikduan](https://erikaduan.github.io/posts/2021-01-02-volcano-plots-with-ggplot2/)
+
+[Understanding Volcano Plots](https://www.htgmolecular.com/blog/2022-08-25/understanding-volcano-plots)
+
+[Data Analysis and Visualization](https://mkempenaar.github.io/gene_expression_analysis/chapter-5.html)
