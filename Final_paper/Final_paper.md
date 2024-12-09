@@ -108,3 +108,39 @@ Customization: Matplotlib allows extensive styling and customization.
 A volcano plot similar to R’s visualization, emphasizing significant gene expression changes.
 
 Both R and Python excel at generating volcano plots. The choice of tool depends on the user’s familiarity and the specific requirements of the analysis.
+
+## Case Study: "Roles of highly expressed PAICS in lung adenocarcinoma"
+
+
+
+### Differential Expression in Cancer vs. Normal Tissue
+
+Researchers often use volcano plots to visualize how certain genes might be expressed differentially in cancerous tissue versus normal tissue. Such insight provides a clearer target for gene therapies and other methodologies in the specific form of cancer they are researching. 
+
+### Focus of the Paper
+
+PAICS is a metabolic enzyme that has been identified as an oncogene, which is a mutated gene that often causes cancer in many tumor types, such as breast cancer and prostate cancer. In general, cancer is the result of uncontrolled cellular proliferation of mutated cells. The specific molecular mechanism that causes such proliferation tends to differ among different cancer types. Whether it be the mutation of the p53 tumor suppressor gene, preventing necessary apoptosis of mutated cells, or the overactivation of molecular components that promote cellular proliferation, there are many possible ways in which cancer can be caused. Because different types of cancer often have different causes, the role of PAICS in lung adenocarcinoma, or LADC, is unknown and is the focus of this paper's research. 
+
+The authors of this paper highlighted the importance of their research by explaining that lung cancer is the leading cause of cancer-related mortality. About 78.1 of every 10,000 people in China are reported to have suffered from LADC specifically. Due to the fact that metabolic reprogramming has been the focus of cancer research recently, understanding the relationship between the dysregulated metabolism of enzymes and metastasis is necessary to producing effective lung cancer treatments. 
+
+## Case Study: Results
+
+Utilizing the genomics data available on the database cBioPortal to obtain 558 genes that were significantly coexpressed with PAICS in LADC samples, the researchers created a volcano plot with **threshold criteria** of a *log2 fold change of +/- 1* and a *p-values less than 0.05*. 
+
+**The resulting volcano plot looked like:**
+
+
+
+*Figure A's Description:* "The expression differences of coexpression genes, obtained from cBioPortal, between altered and unaltered PAICS expression group, are shown in a volcano plot.
+
+Based on the threshold, **215 genes** were identified as PAICS-associated codifferentially expressed genes. They were thus likely involved in biological pathways related to PAICS expression, helping researchers to better understand potential therapeutic targets. 
+
+*After further analysis, the researchers discovered an important association between the coexpressed genes and tumor development:*
+
+The discovery they made was that a majority of the genes co-expressed with PAICS were found to be involved in cell-proliferation related processes like cellular division and mitotic nuclear division. Uncontrolled cellular proliferation is what results in metastatic tumors (cancer). Thus, these results suggest that PAICS-related genes might be playing a role in promoting this process. 
+
+Since many of these co-expressed genes were associated with cellular proliferation, this volcano plot indicates that PAICS itself likely plays a role in these cancer-causing processes as well. 
+
+## Summary
+
+In summary, volcano plots serve as a very important tool in research that looks at differential gene expression, such as cancer research. There are many possible tools that are available to generate a volcano plot in R or python. These tools make it easy for researchers to generate a volcano plot based on their collected data and use that plot to determine which genes were differentially expressed. From there, they can look at the specific functionality of those genes to try and understand the molecular mechanism for the type of disease or cancer they are researching. 
