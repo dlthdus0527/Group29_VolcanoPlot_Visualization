@@ -2,6 +2,8 @@
 ### By Ishvari Desai, Emily Wei, Soyeon Lee(Amy)
 
 * [Introduction](#introduction)
+* [Volcano Plot](#volcano-plot)
+* [Generating Volcano Plots](#generating-volcano-plots)
 
 ## Introduction
 
@@ -112,7 +114,7 @@ A volcano plot similar to R’s visualization, emphasizing significant gene expr
 
 Both R and Python excel at generating volcano plots. The choice of tool depends on the user’s familiarity and the specific requirements of the analysis.
 
-## Case Study: "Roles of highly expressed PAICS in lung adenocarcinoma"
+## Case Study: Roles of highly expressed PAICS in lung adenocarcinoma
 
 <img width="720" alt="research_paper_title" src="https://github.com/user-attachments/assets/3d5f3e26-6d84-41de-9976-493b86c4b6b5">
 
